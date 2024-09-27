@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+<style>
+    .container {
+        width: 50%;
+        height: 90vh;
+        border: 10px solid black;
+        background-color: rgba(0, 0, 255, 0.656);
+
+        display: flex;
+        /* flex-direction: column-reverse; */
+        column-gap: 12px;
+        flex-wrap: wrap;
+        row-gap: 12px;
+
+
+
+
+
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    #box1 {
+        background-color: rgba(255, 0, 0, 0.788);
+    }
+
+    #box2 {
+        background-color: rgba(0, 128, 0, 0.623);
+    }
+
+    #box3 {
+        background-color: palevioletred;
+    }
+
+    #box4 {
+        background-color: rgba(255, 255, 0, 0.718);
+    }
+</style>
+
+<body>
+    <!-- Dispaly: Flex -->
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+
+
+
+</body>
+
+</html>
+
+
+
+<!-- block element
+p, h1, div, li
+inline
+span, a, img -->

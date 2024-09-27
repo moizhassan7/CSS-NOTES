@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec</title>
+</head>
+<style>
+    .box {
+        width: 250px;
+        height: 250px;
+        background: dodgerblue;
+        /* transform: translate() is used to move the element to a specific location */
+        /* transform: rotate() ia used to rotate the element in a specific angle. */
+        /* transform: scale(); is used to for a specific scale to orginal */
+        /* transform: skew(); is used for incline  */
+
+
+        /* transition-property is used to define on which property the transition is applided */
+        /* transition-duration to define how the duration */
+        /* transition-timing-function is used how a element is transition; */
+        /* transition-delay: the element will behave after a delay */
+
+    }
+
+
+    .box:hover {
+        /* transform: translate(50px, 100px); */
+        /* transform: rotate(-45deg); */
+        /* transform: scaleY(0.5); */
+        /* transform: skewY(20deg); */
+
+
+        width: 400px;
+        /* transition-timing-function: ease; start slow mid fast end slow */
+        /* transition-timing-function: ease-in; start slow mid fast end fast */
+        /* transition-timing-function: ease-out; start fast mid fast end slow */
+        transition-timing-function: ease-in-out;
+        /* transition-property: width;
+        transition-duration: 6s;
+        transition-timing-function: linear; */
+        transition: background 4s ease-in-out;
+        transition: width 6s ease 4s;
+    }
+</style>
+
+<body>
+    <div class="box"></div>
+
+
+
+</body>
+
+</html>
